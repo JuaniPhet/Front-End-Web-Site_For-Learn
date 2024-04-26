@@ -115,7 +115,7 @@ main .text-center {
     font-weight: 400;
 }
 
-.h-section {
+.h-section, .c-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -345,5 +345,59 @@ footer {
     
     article {
         margin-bottom: 40px;
+    }
+}
+
+/* Contact us */
+
+.c-section {
+    padding: 0;
+    margin-top: -80px;
+}
+
+.text-box {
+    width: 48.5%;
+    font-size: 1.5em;
+    
+    p {
+        padding: 40px 0 0 0;
+    }
+
+    a {
+        color: #814ebf;
+        display: block;
+        padding: 10px 0 0 0;
+    }
+
+    hr {
+        border: lightgray solid 1px;
+        margin: 40px 0 45px 0;
+    }
+}
+
+form {
+    width: 48.5%;
+    font-size: 1.1em;
+    margin: 30px 0 0 0;
+    sup {
+        color: red;
+        font-size: 1em;
+    }
+    input {
+        width: 100%;
+        height: 50px;
+        border: lightgray 0.5px solid;
+        font-size: 0.9em;
+        margin-bottom: 15px;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 1.2em;
+        margin-bottom: 15px;
+    }
+
+    .violet-btn {
+        font-size: 1.2em;
     }
 }
