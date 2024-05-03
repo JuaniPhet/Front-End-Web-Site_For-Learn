@@ -401,3 +401,17 @@ form {
         font-size: 1.2em;
     }
 }
+
+.thank-page {
+    font-size: 1.5em; 
+    padding-top: 70px;
+
+    p {
+        padding-top: 30px;
+    }
+
+    img {
+        height: 35px;
+        margin-right: 20px;
+    }
+}
