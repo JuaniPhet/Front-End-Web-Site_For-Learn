@@ -107,7 +107,9 @@ a {
 
     #nav-menu {
         display: flex;
+        display: none;
         flex-direction: column;
+        transition: display 1s;
 
         ul {
             display: flex;
