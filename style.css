@@ -517,6 +517,8 @@ form {
     }
 }
 
+/* Thank You */
+
 .thank-page {
     font-size: 1.5em; 
     padding-top: 70px;
@@ -533,5 +535,19 @@ form {
 
     a {
         color: #814ebf;
+    }
+
+    .download-btn {
+        background-color: #814ebf;
+        color: #fff;
+        border-radius: 30px;
+        padding: 10px 15px;
+    }
+
+    .download-btn:hover {
+        background-color: #fff;
+        color: #814ebf;
+        transition: 0.1s;
+        box-shadow: 0 0 10px rgb(196, 195, 195);
     }
 }
